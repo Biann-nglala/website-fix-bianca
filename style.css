@@ -1,0 +1,79 @@
+body {
+    background-color: #FAF7F0;
+}
+
+header {
+    border: 1px solid #D8D2C2;
+    padding: 30px;
+}
+
+header h1 {
+    color: #D8D2C2;
+}
+
+header p {
+    font-style: italic;
+}
+
+header img {
+    width: 60%;
+}
+
+header img:hover {
+    transform: scale(.8);
+    transition: all .3s ease-in-out;
+    box-shadow: 2px 2px 12px;
+}
+
+header button {
+    display: block;
+    margin: 20px auto;
+    padding:  20px 30px;
+    background-color: blanchedalmond;
+    color: brown;
+    border-radius: 15px;
+    border: 1px solid blanchedalmond;
+}
+
+header button:hover {
+    background-color: #FAF7F0;
+    color: #D8D2C2;
+}
+
+.about {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.about h2 {
+    color: #D8D2C2;
+}
+
+.project {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid #FAF7F0;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.project img {
+    width: 40%;
+}
+
+.project img:hover {
+    transform: scale(.8);
+    transition: all.3s ease-in-out;
+    box-shadow: 2px 2px 12px #FAF7F0;
+}
+
+footer{
+    margin-top: 40px;
+    text-align: center;
+    padding: 30px;
+    background-color: antiquewhite;
+    color: cadetblue;
+}
